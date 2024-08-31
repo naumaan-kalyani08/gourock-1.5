@@ -5,9 +5,169 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #5a5a5a;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.slider-wrapper{
+  height: 100dvh;
+  
+}
+.custom{
+  background-color: rgb(173, 217, 255);
+  height: 100dvh;
+  /* color: white; */
+}
+.custom .carousel {
+  height: 100dvh;
+}
+.carousel-item img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 15px; */
+}
+
+
+.slide-1-test {
+    /* margin: 20px; */
+    /* border-radius: 15px; */
+    background-color: #5a5a5a;
+}
+
+
+
+.box-wrapper{
+  
+  background-color: #f8f8f8;
+  margin-bottom: 10px;
+}
+.infinity-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.partner-logo-slider-wrapper{
+  background-color: #eaeaea;
+  margin:  10px 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+.partner-logo-slider-wrapper:hover{
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0.7px 0.6px #dbdbdb;
+}
+/* .about-height{
+  height: 73.5vh;
+} */
+.partner-logo-slider-wrapper img{
+  height: 45px;
+  width: 90px;
+  object-fit: contain;
+  transition-duration: 0.2s;
+}
+
+
+  .brand-logo-slider-wrapper {
+    background-color: #eaeaea;
+    margin: 12px 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.brand-logo-slider-wrapper img {
+  height: 60px;
+  width: 80px;
+  object-fit: contain;
+  transition-duration: 0.2s;
+}
+
+
+.hide-scrollbar {
+  overflow: hidden;
+}
+
+.fp-section{
+  height: 100vh !important;
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  scrollbar-width: none; /* Hide the scrollbar */
+}
+
+/* For Internet Explorer and Edge */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* Hide the scrollbar */
+}
+
+.section{
+  height: 100vh;
+}
+.about-left-custom{
+  
+  width: 23%;
+  padding-right: 0;
+
+}
+.innerCircle{
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  text-align: center;
+  background: rgb(255,224,225);background: linear-gradient(90deg, rgba(255,224,225,1) 0%, rgba(255,240,240,1) 50%, rgba(230,210,245,1) 100%);
+  box-shadow: 0px 0px 8px 2px #4f4f4f;
+  display: inline-block;
+  position: relative;
+
+}
+.outerCircle{
+  background-color: #eaeaea;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.no-of-experience{
+  font-size: 6.5rem;
+  position: relative;
+  margin-bottom: 0;
+}
+.slotNumberDesign{
+  font-weight: 700;
+  color: #242E45;
+}
+.numbers{
+  font-size: 3rem;
+}
+.about-text{
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.experience-text{
+  position: absolute;
+  font-weight: 700;
+  font-size: 1.25rem;
+  width: 140px;
+  line-height: 20px;
+  bottom: 16%;
+  right: 20%;
+  margin-bottom: 0;
+}
+
+.symbol{
+  font-size: 2.5rem;
+  position: absolute;
+  top: 26%;
+  right: 12%;
 }

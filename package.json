@@ -4,14 +4,19 @@
   "private": true,
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",
+    "@fullpage/react-fullpage": "^0.1.42",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+    "fullpage.js": "^4.0.28",
     "react": "^18.3.1",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.2",
+    "react-slot-counter": "^3.0.1",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
@@ -38,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
